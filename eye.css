@@ -1,0 +1,149 @@
+body {
+    background: #89c7c0;
+}
+
+.container, .almond, .innerAlmond, .iris {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.container {
+    width: 580px;
+    height: 390px;
+}
+
+.almond {
+    background: #ffa74f;
+    width: 390px;
+    height: 390px;
+    border-radius: 100% 15px;
+    transform: rotate(45deg);
+}
+
+.innerAlmond {
+    background: white;
+    width: 360px;
+    height: 360px;
+    border-radius: 100% 12px;
+}
+
+.iris {
+    background: #080707;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 28px solid brown;
+}
+
+.shine {
+    background: #cccccc;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    transform: translate(-10px, 30px);
+}
+
+.cresent {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 red;
+    transform: rotateZ(127deg);
+}
+
+.dot {
+    position: absolute;
+    background: brown;
+    width: 1px;
+    height: 35px;
+    border-radius: 38%;
+    transform: translate(-4px);
+}
+
+.lashes {
+    position: absolute;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 85px solid white;
+}
+
+.lash1 {
+    transform: translate(15px, 67px) rotate(-38deg);
+}
+
+.lash2 {
+    transform: translate(45px, 45px) rotate(-32deg);
+}
+
+.lash3 {
+    transform: translate(75px, 27px) rotate(-28deg);
+}
+
+.lash4 {
+    transform: translate(105px, 12px) rotate(-24deg);
+}
+
+.lash5 {
+    transform: translate(135px, -1px) rotate(-20deg);
+}
+
+.lash6 {
+    transform: translate(165px, -10px) rotate(-16deg);
+}
+
+.lash7 {
+    transform: translate(195px, -18px) rotate(-12deg);
+}
+
+.lash8 {
+    transform: translate(225px, -23px) rotate(-8deg);
+}
+
+.lash9 {
+    transform: translate(255px, -26px) rotate(-4deg);
+}
+
+.lash10 {
+    transform: translate(285px, -28px);
+}
+
+.lash11 {
+    transform: translate(315px, -27px) rotate(4deg);
+}
+
+.lash12 {
+    transform: translate(347px, -24px) rotate(8deg);
+}
+
+.lash13 {
+    transform: translate(378px, -19px) rotate(12deg);
+}
+
+.lash14 {
+    transform: translate(412px, -10px) rotate(16deg);
+}
+
+.lash15 {
+    transform: translate(442px, 0px) rotate(20deg);
+}
+
+.lash16 {
+    transform: translate(474px, 16px) rotate(26deg);
+}
+
+.lash17 {
+    transform: translate(505px, 32px) rotate(32deg);
+}
+
+.lash18 {
+    transform: translate(535px, 53px) rotate(37deg);
+}
+
+.lash19 {
+    transform: translate(562px, 78px) rotate(42deg);
+}
